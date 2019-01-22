@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () {
+    NSString *kSomeOtherYellowToBlue;
+}
 
 @end
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    kSomeOtherYellowToBlue = @"someOtherYellowToBlue";
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
@@ -24,8 +27,16 @@
         NSLog(@"Från gul till grön");
     } else if ([segue.identifier isEqualToString:@"yellowToBlue"]) {
         NSLog(@"Från gul till blå");
+    } else if ([segue.identifier isEqualToString:@"gotoGreenPressed"]) {
+        NSLog(@"Knappen till grön trycktes!");
     }
 }
 
+
+- (IBAction)activateButtonPressed:(id)sender {
+    [NSTimer scheduledTimerWithTimeInterval:3.0 repeats:false block:^(NSTimer * _Nonnull timer) {
+        [self performSegueWithIdentifier:kSomeOtherYellowToBlue sender:nil];
+    }];
+}
 
 @end

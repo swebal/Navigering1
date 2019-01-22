@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeViewController.h
 //  Navigering1
 //
 //  Created by Markus on 2019-01-22.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HomeViewController : UIViewController
 
-- (IBAction)activateButtonPressed:(id)sender;
+- (IBAction)logoutButtonPressed:(id)sender;
+
 
 @end
-

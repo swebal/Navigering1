@@ -15,6 +15,9 @@
 		28FDA9D521F71DB0005FE326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FDA9D421F71DB0005FE326 /* main.m */; };
 		28FDA9DD21F72BE7005FE326 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FDA9DC21F72BE7005FE326 /* SecondViewController.m */; };
 		28FDA9E021F72E7D005FE326 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FDA9DF21F72E7D005FE326 /* BlueViewController.m */; };
+		28FDA9E321F749B5005FE326 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FDA9E221F749B5005FE326 /* LoginViewController.m */; };
+		28FDA9E621F75568005FE326 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FDA9E521F75568005FE326 /* LaunchViewController.m */; };
+		28FDA9E921F758C1005FE326 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FDA9E821F758C1005FE326 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		28FDA9DC21F72BE7005FE326 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		28FDA9DE21F72E7D005FE326 /* BlueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
 		28FDA9DF21F72E7D005FE326 /* BlueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		28FDA9E121F749B5005FE326 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		28FDA9E221F749B5005FE326 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		28FDA9E421F75568005FE326 /* LaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		28FDA9E521F75568005FE326 /* LaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		28FDA9E721F758C1005FE326 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		28FDA9E821F758C1005FE326 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +80,12 @@
 				28FDA9DB21F72BE7005FE326 /* SecondViewController.h */,
 				28FDA9DC21F72BE7005FE326 /* SecondViewController.m */,
 				28FDA9CB21F71DAF005FE326 /* Main.storyboard */,
+				28FDA9E721F758C1005FE326 /* HomeViewController.h */,
+				28FDA9E821F758C1005FE326 /* HomeViewController.m */,
+				28FDA9E421F75568005FE326 /* LaunchViewController.h */,
+				28FDA9E521F75568005FE326 /* LaunchViewController.m */,
+				28FDA9E121F749B5005FE326 /* LoginViewController.h */,
+				28FDA9E221F749B5005FE326 /* LoginViewController.m */,
 				28FDA9DE21F72E7D005FE326 /* BlueViewController.h */,
 				28FDA9DF21F72E7D005FE326 /* BlueViewController.m */,
 				28FDA9CE21F71DB0005FE326 /* Assets.xcassets */,
@@ -153,9 +168,12 @@
 			files = (
 				28FDA9DD21F72BE7005FE326 /* SecondViewController.m in Sources */,
 				28FDA9E021F72E7D005FE326 /* BlueViewController.m in Sources */,
+				28FDA9E321F749B5005FE326 /* LoginViewController.m in Sources */,
+				28FDA9E621F75568005FE326 /* LaunchViewController.m in Sources */,
 				28FDA9CA21F71DAF005FE326 /* ViewController.m in Sources */,
 				28FDA9D521F71DB0005FE326 /* main.m in Sources */,
 				28FDA9C721F71DAF005FE326 /* AppDelegate.m in Sources */,
+				28FDA9E921F758C1005FE326 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

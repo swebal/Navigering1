@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LaunchViewController.h
 //  Navigering1
 //
 //  Created by Markus on 2019-01-22.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-- (IBAction)activateButtonPressed:(id)sender;
+@interface LaunchViewController : UIViewController
 
 @end
-
