@@ -18,6 +18,7 @@
 		28FDA9E321F749B5005FE326 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FDA9E221F749B5005FE326 /* LoginViewController.m */; };
 		28FDA9E621F75568005FE326 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FDA9E521F75568005FE326 /* LaunchViewController.m */; };
 		28FDA9E921F758C1005FE326 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FDA9E821F758C1005FE326 /* HomeViewController.m */; };
+		28FDA9EC21FAFF52005FE326 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FDA9EB21FAFF52005FE326 /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		28FDA9E521F75568005FE326 /* LaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
 		28FDA9E721F758C1005FE326 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		28FDA9E821F758C1005FE326 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		28FDA9EA21FAFF52005FE326 /* ModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		28FDA9EB21FAFF52005FE326 /* ModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				28FDA9DB21F72BE7005FE326 /* SecondViewController.h */,
 				28FDA9DC21F72BE7005FE326 /* SecondViewController.m */,
 				28FDA9CB21F71DAF005FE326 /* Main.storyboard */,
+				28FDA9EA21FAFF52005FE326 /* ModalViewController.h */,
+				28FDA9EB21FAFF52005FE326 /* ModalViewController.m */,
 				28FDA9E721F758C1005FE326 /* HomeViewController.h */,
 				28FDA9E821F758C1005FE326 /* HomeViewController.m */,
 				28FDA9E421F75568005FE326 /* LaunchViewController.h */,
@@ -171,6 +176,7 @@
 				28FDA9E321F749B5005FE326 /* LoginViewController.m in Sources */,
 				28FDA9E621F75568005FE326 /* LaunchViewController.m in Sources */,
 				28FDA9CA21F71DAF005FE326 /* ViewController.m in Sources */,
+				28FDA9EC21FAFF52005FE326 /* ModalViewController.m in Sources */,
 				28FDA9D521F71DB0005FE326 /* main.m in Sources */,
 				28FDA9C721F71DAF005FE326 /* AppDelegate.m in Sources */,
 				28FDA9E921F758C1005FE326 /* HomeViewController.m in Sources */,

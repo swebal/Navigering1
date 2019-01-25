@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "LaunchViewController.h"
 
 @interface HomeViewController ()
 
@@ -47,6 +48,23 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults removeObjectForKey:@"didLogin"];
     [self.navigationController popViewControllerAnimated:true];
+}
+
+- (IBAction)pushViewPressed:(id)sender {
+    UIViewController *viewController = [UIViewController alloc];
+    viewController.view.backgroundColor = [UIColor blueColor];
+    [self.navigationController pushViewController:viewController animated:true];
+}
+
+- (IBAction)presentViewPressed:(id)sender {
+    
+    UIViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"NoClassViewController"];
+//    viewController.view.backgroundColor = [UIColor greenColor];
+//    viewController.title = @"Titta på mig";
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    [self.navigationController presentViewController:navigationController animated:true completion:nil];
 }
 
 @end

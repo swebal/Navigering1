@@ -11,6 +11,9 @@
 @interface HomeViewController : UIViewController
 
 - (IBAction)logoutButtonPressed:(id)sender;
+- (IBAction)pushViewPressed:(id)sender;
+- (IBAction)presentViewPressed:(id)sender;
+
 
 
 @end
